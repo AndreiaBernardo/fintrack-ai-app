@@ -46,7 +46,9 @@ export const Header = ({
         </div>
         </div>
 
-        <div className="h-10 w-10  overflow-hidden rounded-full bg-[#1E2938]">
+        <div className="flex flex-1 justify-end">
+            <div className="h-10 w-10  overflow-hidden rounded-full bg-[#1E2938] ">
+
             <Image
             src={Avatar}
             alt="Avatar"
@@ -54,6 +56,9 @@ export const Header = ({
             priority
             />
         </div>
+        
+        </div>
+        
     </header>
     
     )
